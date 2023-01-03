@@ -1,0 +1,40 @@
+:root {
+    --clr-blue-800: hsl(218, 44%, 22%);
+    --clr-blue-200: hsl(212, 45%, 89%);
+    --clr-white-100: hsl(0, 0%, 100%);
+    --clr-gray-200: #919191;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: var(--clr-blue-200);
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    place-items: center;
+}
+.QR_Scanner {
+    padding: 1rem;
+    margin: 2rem;
+    max-width: 320px;
+    background-color: var(--clr-white-100);
+    border-radius: 1.5rem;
+}
+.QR_Code {
+    width: 100%;
+    border-radius: 1rem;
+}
+.content {
+    display: grid;
+    margin: 1.5rem;
+    gap: 1.25rem;
+    text-align: center;
+}
+.content h1 {
+    color: var(--clr-blue-800);
+}
+.content p {
+    color: var(--clr-gray-200);
+}
